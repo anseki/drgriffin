@@ -80,7 +80,7 @@ You can specify an optional `timing` as a "timing function" that indicates how t
 One of the following names of constant values (static fields) can be specified to `timing`. These values mean [keywords for common timing functions](https://developer.mozilla.org/en/docs/Web/CSS/timing-function#Keywords_for_common_timing-functions).
 
 | Name | Keyword for timing function |
-|--|--|
+|---|---|
 | `TF_LINEAR` | `linear` |
 | `TF_EASE` (default) | `ease` |
 | `TF_EASE_IN` | `ease-in` |
@@ -110,7 +110,7 @@ A mouse pointer gradually moves to the specific position at the speed that is sp
 One of the following names of constant values (static fields) can be specified to `speed` instead of a number.
 
 | Name | Speed |
-|-|-|
+|---|---|
 | `SPEED_NORMAL` (default) | `0.3` |
 | `SPEED_LOW1` | `0.1`, slower than `SPEED_NORMAL` |
 | `SPEED_LOW2` | `0.05`, slower than `SPEED_LOW1` |
@@ -199,7 +199,7 @@ Press or release a key of a keyboard, after `delay` milliseconds.
 One of the following names of constant values (static fields) can be specified to `key`.
 
 | Name | Key |
-|-|-|
+|---|---|
 | `KEY_NONE` | No Key |
 
 (See [KeyCode.md](KeyCode.md) for other keys.)

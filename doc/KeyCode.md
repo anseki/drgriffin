@@ -5,7 +5,7 @@
 `VK_*` from `java.awt.event.KeyEvent`
 
 | Field | Description |
-|-|-|
+|---|---|
 | `VK_ENTER` |  |
 | `VK_BACK_SPACE` |  |
 | `VK_TAB` |  |

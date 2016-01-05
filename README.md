@@ -31,6 +31,8 @@ This following sample: gave DrGriffin these data that were picked up in a SVG fo
 
 ![sample](doc/sample-06.gif)
 
+**Java8 is required.**
+
 ## Command Line Tool
 
 See [CLI.md](doc/CLI.md).
