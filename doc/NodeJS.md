@@ -85,3 +85,7 @@ drGriffin.pressButton(500, drGriffin.BUTTON_1, true, function() {
   // Do something...
 });
 ```
+
+## See Also
+
+You can use [command line tool `pointer-xy`](CLI.md#pointer-xy) to get coordinates of position of a mouse pointer easily.

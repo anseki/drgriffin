@@ -141,7 +141,7 @@ A drag-and-drop action includes pressing a mouse button, moving a mouse pointer 
 One of the following names of constant values (static fields) can be specified to `button`.
 
 | Name | Button |
-|-|-|
+|---|---|
 | `BUTTON_1` | Mouse Button1 |
 | `BUTTON_2` | Mouse Button2 |
 | `BUTTON_3` | Mouse Button3 |
