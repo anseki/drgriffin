@@ -1,5 +1,7 @@
 # DrGriffin
 
+**Java8 is required.**
+
 DrGriffin controls a mouse and keyboard automatically for:
 
 - Testing a GUI of desktop app, web app, operating system, etc.
@@ -30,8 +32,6 @@ You can specify a "timing function" that indicates how to change the speed at wh
 This following sample: gave DrGriffin these data that were picked up in a SVG formated image file, and then DrGriffin is drawing an image in a paint app.
 
 ![sample](doc/sample-06.gif)
-
-**Java8 is required.**
 
 ## Command Line Tool
 
