@@ -1,0 +1,33 @@
+{
+  "name": "drgriffin",
+  "version": "0.1.0",
+  "title": "DrGriffin",
+  "description": "DrGriffin controls a mouse and keyboard automatically for testing a GUI, making a demonstration movie clip, etc.",
+  "keywords": [
+    "mouse",
+    "keyboard",
+    "automatic",
+    "pointer",
+    "gui",
+    "test",
+    "drag",
+    "click",
+    "curve",
+    "bezier"
+  ],
+  "main": "./lib/DrGriffin.js",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "homepage": "https://github.com/anseki/drgriffin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anseki/drgriffin.git"
+  },
+  "bugs": "https://github.com/anseki/drgriffin/issues",
+  "license": "MIT",
+  "author": {
+    "name": "anseki",
+    "url": "https://github.com/anseki"
+  }
+}
