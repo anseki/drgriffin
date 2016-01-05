@@ -80,7 +80,7 @@ You can specify an optional `timing` as a "timing function" that indicates how t
 One of the following names of constant values (static fields) can be specified to `timing`. These values mean [keywords for common timing functions](https://developer.mozilla.org/en/docs/Web/CSS/timing-function#Keywords_for_common_timing-functions).
 
 | Name | Keyword for timing function |
-|-|-|
+|---|---|
 | `TF_LINEAR` | `linear` |
 | `TF_EASE` (default) | `ease` |
 | `TF_EASE_IN` | `ease-in` |
