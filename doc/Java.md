@@ -26,6 +26,7 @@ Initialize DrGriffin and return an instance.
 An optional `fps` is frame rate of the motion as a mouse pointer moving. This is a number of frames per second. The default value is `60`.
 
 ----
+
 ```java
 DrGriffin(int delay, double dx, double dy[, int fps])
 ```
@@ -48,6 +49,15 @@ DrGriffin drGriffin = new DrGriffin(3000, 150, 100);
 ## Methods
 
 ### `moveMouse`
+
+<a name="methods-movemouse-int-delay-double-dx-double-dy"></a>
+```java
+moveMouse(int delay, double dx, double dy)
+```
+
+Put a mouse pointer onto a position the `dx` and `dy` coordinates indicate, after `delay` milliseconds. That is, a mouse pointer moves to the specific position in a moment, after `delay` milliseconds.
+
+----
 
 ```java
 moveMouse(int delay, double dx, double dy,
@@ -118,14 +128,6 @@ One of the following names of constant values (static fields) can be specified t
 | `SPEED_HIGH2` | `1.0`, faster than `SPEED_HIGH1` |
 
 If `speed` is not specified, a value that was specified last time is used. If it has never been specified before, `SPEED_NORMAL` is used.
-
-----
-<a name="methods-movemouse-int-delay-double-dx-double-dy"></a>
-```java
-moveMouse(int delay, double dx, double dy)
-```
-
-Put a mouse pointer onto a position the `dx` and `dy` coordinates indicate, after `delay` milliseconds. That is, a mouse pointer moves to the specific position in a moment, after `delay` milliseconds.
 
 ### `pressButton`
 
