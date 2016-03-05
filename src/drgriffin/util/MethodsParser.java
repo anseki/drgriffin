@@ -209,7 +209,9 @@ public class MethodsParser {
                                                 methodsParser.namedValues.get(TYPE_STRING).get(argumentValue),
                                                 (String) argumentValue) :
                                         new ParameterValue(TYPE_STRING, argumentValue)
-                        ) : force ? new ParameterValue(TYPE_STRING, argumentValue.toString()) : null;
+                        ) : force ? new ParameterValue(TYPE_STRING,
+                                // Accept null as String only.
+                                argumentValue != null ? argumentValue.toString() : null) : null;
                         break;
                     case TYPE_BOOLEAN:
                         if (argumentValue instanceof Boolean) {
@@ -231,7 +233,7 @@ public class MethodsParser {
                                 break;
                             }
                         }
-                        parameterValue = force ?
+                        parameterValue = force && argumentValue != null ?
                                 new ParameterValue(TYPE_BOOLEAN, Boolean.parseBoolean(argumentValue.toString())) :
                                 null;
                         break;
@@ -312,7 +314,7 @@ public class MethodsParser {
         ParameterValue(int typeId, Object value, String face) {
             this.value = value;
             this.face = face != null ? face :
-                    typeId == TYPE_STRING ? "\"" + value + "\"" : value.toString();
+                    typeId == TYPE_STRING && value != null ? "\"" + value + "\"" : String.valueOf(value);
         }
 
         @Override

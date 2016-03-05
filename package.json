@@ -1,6 +1,6 @@
 {
   "name": "drgriffin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "DrGriffin",
   "description": "DrGriffin controls a mouse and keyboard automatically for testing a GUI, making a demonstration movie clip, etc.",
   "keywords": [
