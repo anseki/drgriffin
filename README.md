@@ -1,6 +1,6 @@
 # DrGriffin
 
-**Java8 is required.**
+**Java8 is required**
 
 DrGriffin controls a mouse and keyboard automatically for:
 
