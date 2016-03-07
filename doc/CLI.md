@@ -4,7 +4,7 @@
 
 Add a path of `drgriffin` directory to a `PATH` environment variable of your system.
 
-And, a following command is required for the system that is not Windows.
+And, a following command may be required for the system that is not Windows.
 
 ```shell
 chmod +x drgriffin/drgriffin
