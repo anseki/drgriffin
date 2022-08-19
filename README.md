@@ -1,6 +1,6 @@
 # DrGriffin
 
-[![npm](https://img.shields.io/npm/v/drgriffin.svg)](https://www.npmjs.com/package/drgriffin) [![GitHub issues](https://img.shields.io/github/issues/anseki/drgriffin.svg)](https://github.com/anseki/drgriffin/issues) [![dependencies](https://img.shields.io/badge/dependencies-No%20dependency-brightgreen.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
+[![npm](https://img.shields.io/npm/v/drgriffin.svg)](https://www.npmjs.com/package/drgriffin) [![GitHub issues](https://img.shields.io/github/issues/anseki/drgriffin.svg)](https://github.com/anseki/drgriffin/issues) [![dependencies](https://img.shields.io/badge/dependencies-No%20dependency-brightgreen.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Java8 is required**
 
